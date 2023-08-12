@@ -1,456 +1,456 @@
 # 1
-# str1 = """Twinkle, twinkle, little star,
-# 	How I wonder what you are!
-# 		Up above the world so high,
-# 		Like a diamond in the sky.
-# Twinkle, twinkle, little star,
-# 	How I wonder what you are
-# """
-# print(str1)
+str1 = """Twinkle, twinkle, little star,
+	How I wonder what you are!
+		Up above the world so high,
+		Like a diamond in the sky.
+Twinkle, twinkle, little star,
+	How I wonder what you are
+"""
+print(str1)
 
 # 2
-# import sys
-# print("version of Python : " + sys.version)
+import sys
+print("version of Python : " + sys.version)
 
 # 3
-# print("Current date and time :\n2014-07-05 14:34:14")
+print("Current date and time :\n2014-07-05 14:34:14")
 
 # 4
-# from math import pi
-# print("welcome to calculate circle area ")
-# r = float(input("enter redius of the circle : "))
-# print("area of this circle equal : " , pi * (r**2))
+from math import pi
+print("welcome to calculate circle area ")
+r = float(input("enter redius of the circle : "))
+print("area of this circle equal : " , pi * (r**2))
 
 # 5
-# fname = input("enter your first name : ")
-# lname = input("enter your last name : ")
-# print("your full name is : " , fname + " "  + lname)
+fname = input("enter your first name : ")
+lname = input("enter your last name : ")
+print("your full name is : " , fname + " "  + lname)
 
 # 6
-# user_numbers = (input("Enter your numbers : "))
-# list_numbers = []
-# tuple_numbers = ()
-#
-# for num in user_numbers :
-#     if num !=",":
-#         list_numbers.append(num)
-#
-# for num in user_numbers:
-#     if num != ",":
-#         tuple_numbers = tuple_numbers + (num,)
-#
-# print("list of user numbers : " ,  list_numbers , "\ntuple of user numbers : " , tuple_numbers)
+user_numbers = (input("Enter your numbers : "))
+list_numbers = []
+tuple_numbers = ()
+
+for num in user_numbers :
+    if num !=",":
+        list_numbers.append(num)
+
+for num in user_numbers:
+    if num != ",":
+        tuple_numbers = tuple_numbers + (num,)
+
+print("list of user numbers : " ,  list_numbers , "\ntuple of user numbers : " , tuple_numbers)
 
 # 7
-# filename = input("Input the Filename: ")
-# f_extns = filename.split(".")
-# print ("The extension of the file is : " + f_extns[-1])
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + f_extns[-1])
 
 # 8
-# color_list = ["Red","Green","White" ,"Black"]
-# print("the first color is : " + color_list[0] + "\nthe lsat color is : " + color_list[-1])
+color_list = ["Red","Green","White" ,"Black"]
+print("the first color is : " + color_list[0] + "\nthe lsat color is : " + color_list[-1])
 
 # 9
-# exam_st_date = (11,12,2014)
-# print( "The examination will start from : %i / %i / %i"%exam_st_date)
+exam_st_date = (11,12,2014)
+print( "The examination will start from : %i / %i / %i"%exam_st_date)
 
 # 10
-# user_num = int(input("enter your num : "))
-# print(user_num + user_num**2 + user_num**3)
+user_num = int(input("enter your num : "))
+print(user_num + user_num**2 + user_num**3)
 
 # 11
-# print(abs.__doc__)
+print(abs.__doc__)
 
 # 12
-# import calendar
-# y = int(input("Input the year : "))
-# m = int(input("Input the month : "))
-# print(calendar.month(y, m))
+import calendar
+y = int(input("Input the year : "))
+m = int(input("Input the month : "))
+print(calendar.month(y, m))
 
 # 13
-# print("""
-# a string that you "don't" have to escape
-# This
-# is a  ....... multi-line
-# heredoc string --------> example
-# """)
+print("""
+a string that you "don't" have to escape
+This
+is a  ....... multi-line
+heredoc string --------> example
+""")
 
 # 14
-# date1 = (2014, 7, 2)
-# date2 = (2014, 7, 11)
-# print(date2[-1]-date1[-1])
+date1 = (2014, 7, 2)
+date2 = (2014, 7, 11)
+print(date2[-1]-date1[-1])
 
 # 15
-# import math
-# print("welcome to calculate volume of sphare")
-# r = 6
-# print("volume of sphare equal : " , (4/3) * math.pi * r**3)
+import math
+print("welcome to calculate volume of sphare")
+r = 6
+print("volume of sphare equal : " , (4/3) * math.pi * r**3)
 
 # 16
-# num1 = int(input("enter your number : "))
-# num2 = 17
-# difference_between_num1_and_num2 = 0
-# if num1 <= num2:
-#     difference_between_num1_and_num2 = num2 - num1
-# else:
-#     difference_between_num1_and_num2 = (num1 - num2)*2
-# print(difference_between_num1_and_num2)
+num1 = int(input("enter your number : "))
+num2 = 17
+difference_between_num1_and_num2 = 0
+if num1 <= num2:
+    difference_between_num1_and_num2 = num2 - num1
+else:
+    difference_between_num1_and_num2 = (num1 - num2)*2
+print(difference_between_num1_and_num2)
 
 # 17
-# num = int(input("enter your num : "))
-# print(((abs(1000 - num) <= 100) or (abs(2000 - num) <= 100)))
+num = int(input("enter your num : "))
+print(((abs(1000 - num) <= 100) or (abs(2000 - num) <= 100)))
 
 # 18
-# num1 = int(input("enter your first number : "))
-# num2 = int(input("enter your second number : "))
-# num3 = int(input("enter your therd number : "))
-# sum = num1 + num2 + num3
-# if num1 == num2 and num2 == num3 and num3 ==num1:
-#     count = 0
-#     while count < 3  :
-#         print(sum)
-#         count = count +1
-# else:
-#     print(sum)
+num1 = int(input("enter your first number : "))
+num2 = int(input("enter your second number : "))
+num3 = int(input("enter your therd number : "))
+sum = num1 + num2 + num3
+if num1 == num2 and num2 == num3 and num3 ==num1:
+    count = 0
+    while count < 3  :
+        print(sum)
+        count = count +1
+else:
+    print(sum)
 
-# 19
-# str1 = input("enter your string : ")
-# if str1.startswith("is ") :
-#     print(str1)
-# else :
-#     new_str = "is " + str1
-#     print(new_str)
+19
+str1 = input("enter your string : ")
+if str1.startswith("is ") :
+    print(str1)
+else :
+    new_str = "is " + str1
+    print(new_str)
 
 # 20
-# def larger_string(text, n):
-#    result = ""
-#    for i in range(n):
-#       result = result + text
-#    return result
-# text = input("enter your text : ")
-# print(larger_string(text, 2))
-# print(larger_string(text, 3))
+def larger_string(text, n):
+   result = ""
+   for i in range(n):
+      result = result + text
+   return result
+text = input("enter your text : ")
+print(larger_string(text, 2))
+print(larger_string(text, 3))
 
 # 21
-# num = int(input("please enter your num : "))
-# if num%2 == 0 :
-#     print("your number if even")
-# elif num%2 > 0 :
-#     print("your number is odd")
+num = int(input("please enter your num : "))
+if num%2 == 0 :
+    print("your number if even")
+elif num%2 > 0 :
+    print("your number is odd")
 
 
 # 22
-# list_test = [1,2,4,5,7,9]
-# print(list_test.index(4))
+list_test = [1,2,4,5,7,9]
+print(list_test.index(4))
 
 # 23
-# def substring_copy(text, n):
-#   flen = 2
-#   if flen > len(text):
-#     flen = len(text)
-#   substr = text[:flen]
-#   result = ""
-#   for i in range(n):
-#     result = result + substr
-#   return result
-# print(substring_copy('abcdef', 2))
-# print(substring_copy('p', 3));
+def substring_copy(text, n):
+  flen = 2
+  if flen > len(text):
+    flen = len(text)
+  substr = text[:flen]
+  result = ""
+  for i in range(n):
+    result = result + substr
+  return result
+print(substring_copy('abcdef', 2))
+print(substring_copy('p', 3));
 
 # 24
-# char = input("enter your character : ")
-# if char == "a" or char == "e" or char == "i" or char == "o" or char =="u":
-#     print("your letter is a vowel")
-# else:
-#     print("your letter is not a vowel")
+char = input("enter your character : ")
+if char == "a" or char == "e" or char == "i" or char == "o" or char =="u":
+    print("your letter is a vowel")
+else:
+    print("your letter is not a vowel")
 
-# 25
-# list_test = [1,5,3,8]
-# print(2 in list_test)
-# print(3 in list_test)
+25
+list_test = [1,5,3,8]
+print(2 in list_test)
+print(3 in list_test)
 
 
 # 26
-# def Histogram(list_test):
-#     for item in list_test:
-#         output = ""
-#         times = item
-#         while times > 0 :
-#             output+= "*"
-#             times = times - 1
-#         print(output)
-# Histogram([5,7,3,5])
+def Histogram(list_test):
+    for item in list_test:
+        output = ""
+        times = item
+        while times > 0 :
+            output+= "*"
+            times = times - 1
+        print(output)
+Histogram([5,7,3,5])
 
 # 27
-# list_test = [4,6,2,3,8]
-# str_test = ""
-#
-# for i in list_test:
-#     str_test+= str(i)
-# print(str_test)
+list_test = [4,6,2,3,8]
+str_test = ""
+
+for i in list_test:
+    str_test+= str(i)
+print(str_test)
 
 # 28
-# numbers = [
-#     386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345,
-#     399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217,
-#     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
-#     958,743, 527
-#     ]
-# index = 0
-# index237 = numbers.index(237)
-# for i in numbers:
-#
-#     if index > index237 :
-#         break
-#     elif i%2 == 0:
-#         print(i)
-#     index = index + 1
+numbers = [
+    386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345,
+    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217,
+    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
+    958,743, 527
+    ]
+index = 0
+index237 = numbers.index(237)
+for i in numbers:
+
+    if index > index237 :
+        break
+    elif i%2 == 0:
+        print(i)
+    index = index + 1
 
 # 29
-# color_list_1 = set(["White", "Black", "Red"])
-# color_list_2 = set(["Red", "Green"])
-# new_set = set()
-#
-# for color in color_list_1:
-#     if color not in color_list_2:
-#         new_set = new_set.add(color)
-#
-# print(new_set)
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+new_set = set()
+
+for color in color_list_1:
+    if color not in color_list_2:
+        new_set = new_set.add(color)
+
+print(new_set)
 
 # 30
-# b = int(input("Input the base : "))
-# h = int(input("Input the height : "))
-#
-# area = b*h/2
-#
-# print("area = ", area)
+b = int(input("Input the base : "))
+h = int(input("Input the height : "))
+
+area = b*h/2
+
+print("area = ", area)
 
 # 31
-# def gcd(x, y):
-#    gcd = 1
-#    if x % y == 0:
-#        return y
-#    for k in range(int(y / 2), 0, -1):
-#        if x % k == 0 and y % k == 0:
-#            gcd = k
-#            break
-#    return gcd
-# print("GCD of 12 & 17 =",gcd(12, 17))
-# print("GCD of 4 & 6 =",gcd(4, 6))
-# print("GCD of 336 & 360 =",gcd(336, 360))
+def gcd(x, y):
+   gcd = 1
+   if x % y == 0:
+       return y
+   for k in range(int(y / 2), 0, -1):
+       if x % k == 0 and y % k == 0:
+           gcd = k
+           break
+   return gcd
+print("GCD of 12 & 17 =",gcd(12, 17))
+print("GCD of 4 & 6 =",gcd(4, 6))
+print("GCD of 336 & 360 =",gcd(336, 360))
 
 # 32
-# def lcm(x, y):
-#   if x > y:
-#       z = x
-#   else:
-#       z = y
-#   while(True):
-#       if((z % x == 0) and (z % y == 0)):
-#           lcm = z
-#           break
-#       z += 1
-#   return lcm
-# print(lcm(4, 6))
-# print(lcm(15, 17))
+def lcm(x, y):
+  if x > y:
+      z = x
+  else:
+      z = y
+  while(True):
+      if((z % x == 0) and (z % y == 0)):
+          lcm = z
+          break
+      z += 1
+  return lcm
+print(lcm(4, 6))
+print(lcm(15, 17))
 
 # 33
-# num1 = int(input("enter your first number : "))
-# num2 = int(input("enter your second number : "))
-# num3 = int(input("enter your therd number : "))
-#
-# if num1 == num2 or num2 or num3 or num3 == num1:
-#     sum = 0
-# else:
-#     sum = num1 + num2 + num3
-#
-# print(sum)
+num1 = int(input("enter your first number : "))
+num2 = int(input("enter your second number : "))
+num3 = int(input("enter your therd number : "))
 
-# 34
-# num1 = int(input("enter your first num : "))
-# num2 = int(input("enter your second num : "))
-# sum = num1 + num2
-# if sum >= 15 and sum <=20 :
-#     print(20)
-# else:
-#     print(sum)
+if num1 == num2 or num2 or num3 or num3 == num1:
+    sum = 0
+else:
+    sum = num1 + num2 + num3
+
+print(sum)
+
+34
+num1 = int(input("enter your first num : "))
+num2 = int(input("enter your second num : "))
+sum = num1 + num2
+if sum >= 15 and sum <=20 :
+    print(20)
+else:
+    print(sum)
 
 # 35
-# num1 = int(input("enter your first num : "))
-# num2 = int(input("enter your second num : "))
-# sum = num1 + num2
-# diff = num1 - num2
-#
-# if num1 == num2 or sum == 5 or diff == 5:
-#     print("True")
+num1 = int(input("enter your first num : "))
+num2 = int(input("enter your second num : "))
+sum = num1 + num2
+diff = num1 - num2
+
+if num1 == num2 or sum == 5 or diff == 5:
+    print("True")
 
 # 36
-# def add(object1,object2):
-#     if type(object1) is int and type(object2) is int:
-#         return object1 + object2
-#
-# print(add(6,4))
-# print(add(6,"a"))
-# print(add("4","6"))
+def add(object1,object2):
+    if type(object1) is int and type(object2) is int:
+        return object1 + object2
+
+print(add(6,4))
+print(add(6,"a"))
+print(add("4","6"))
 
 # 37
-# def personal_details():
-#     name, age = "Simon", 19
-#     address = "Bangalore, Karnataka, India"
-#     print("Name: {}\nAge: {}\nAddress: {}".format(name, age, address))
-#
-# personal_details()
+def personal_details():
+    name, age = "Simon", 19
+    address = "Bangalore, Karnataka, India"
+    print("Name: {}\nAge: {}\nAddress: {}".format(name, age, address))
+
+personal_details()
 
 # 38
-# x = 4
-# y = 3
-# print((x+y)**2)
+x = 4
+y = 3
+print((x+y)**2)
 
 # 39
-# amt = 10000
-# int = 3.5
-# years = 7
-# future_value = amt*((1+(0.01*int)) ** years)
-# print(round(future_value,2))
+amt = 10000
+int = 3.5
+years = 7
+future_value = amt*((1+(0.01*int)) ** years)
+print(round(future_value,2))
 
 # 40
-# import math
-# p1 = [4, 0]
-# p2 = [6, 6]
-# distance = math.sqrt( ((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2) )
-#
-# print(distance)
+import math
+p1 = [4, 0]
+p2 = [6, 6]
+distance = math.sqrt( ((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2) )
+
+print(distance)
 
 # 41
-# import os.path
-# print(os.path.isfile('main.txt'))
-# print(os.path.isfile('main.py'))
+import os.path
+print(os.path.isfile('main.txt'))
+print(os.path.isfile('main.py'))
 
 # 42
-# import struct
-# print(struct.calcsize("P") * 8)
+import struct
+print(struct.calcsize("P") * 8)
 
 # 43
-# import platform
-# import os
-# print("Name of the operating system:",os.name)
-# print("\nName of the OS system:",platform.system())
-# print("\nVersion of the operating system:",platform.release())
+import platform
+import os
+print("Name of the operating system:",os.name)
+print("\nName of the OS system:",platform.system())
+print("\nVersion of the operating system:",platform.release())
 
 # 44
-# import site
-# print(site.getsitepackages())
+import site
+print(site.getsitepackages())
 
 # 45
-# from subprocess import call
-# call(["ls", "-l"])
+from subprocess import call
+call(["ls", "-l"])
 
 # 46
-# import os
-# print("Current File Name : ",os.path.realpath(__file__))
+import os
+print("Current File Name : ",os.path.realpath(__file__))
 
 # 47
-# import multiprocessing
-# print(multiprocessing.cpu_count())
+import multiprocessing
+print(multiprocessing.cpu_count())
 
 # 48
-# str_test = "367.35"
-# print(float(str_test))
-# print(int(float(str_test)))
+str_test = "367.35"
+print(float(str_test))
+print(int(float(str_test)))
 
 # 49
-# from os import listdir
-# from os.path import isfile, join
-# files_list = [f for f in listdir('companies uses ai in egypt') if isfile(join('companies uses ai in egypt', f))]
-# print(files_list)
+from os import listdir
+from os.path import isfile, join
+files_list = [f for f in listdir('companies uses ai in egypt') if isfile(join('companies uses ai in egypt', f))]
+print(files_list)
 
 # 50
-# for i in range(0, 10):
-#     print('*',end="")
+for i in range(0, 10):
+    print('*',end="")
 
 # 51
-# import cProfile
-# def sum():
-#     print(1+2)
-# cProfile.run('sum()')
+import cProfile
+def sum():
+    print(1+2)
+cProfile.run('sum()')
 
 
 # 52
-# from __future__ import print_function
-# import sys
-#
-# def eprint(*args, **kwargs):
-#     print(*args, file = sys.stderr, **kwargs)
-#
-# eprint("abc", "efg", "xyz", sep="--")
+from __future__ import print_function
+import sys
+
+def eprint(*args, **kwargs):
+    print(*args, file = sys.stderr, **kwargs)
+
+eprint("abc", "efg", "xyz", sep="--")
 
 # 53
-# import os
-# print('*----------------------------------*')
-# print(os.environ)
-# print('*----------------------------------*')
-# # Access a particular environment variable
-# print(os.environ['HOME'])
-# print('*----------------------------------*')
-# print(os.environ['PATH'])
-# print('*----------------------------------*')
+import os
+print('*----------------------------------*')
+print(os.environ)
+print('*----------------------------------*')
+# Access a particular environment variable
+print(os.environ['HOME'])
+print('*----------------------------------*')
+print(os.environ['PATH'])
+print('*----------------------------------*')
 
 # 54
-# import getpass
-# print(getpass.getuser())
+import getpass
+print(getpass.getuser())
 
 # 55
-# import socket
-# print([l for l in ([ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]
-# if not ip.startswith("127.")][:1], [[(s.connect(('8.8.8.8', 53)),
-# s.getsockname()[0], s.close()) for s in [socket.socket(socket.AF_INET,
-# socket.SOCK_DGRAM)]][0][1]]) if l][0][0])
+import socket
+print([l for l in ([ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]
+if not ip.startswith("127.")][:1], [[(s.connect(('8.8.8.8', 53)),
+s.getsockname()[0], s.close()) for s in [socket.socket(socket.AF_INET,
+socket.SOCK_DGRAM)]][0][1]]) if l][0][0])
 
 # 56
-# def terminal_size():
-#     import fcntl, termios, struct
-#     th, tw, hp, wp = struct.unpack('HHHH',
-#         fcntl.ioctl(0, termios.TIOCGWINSZ,
-#         struct.pack('HHHH', 0, 0, 0, 0)))
-#     return tw, th
-#
-# print('Number of columns and Rows: ',terminal_size())
+def terminal_size():
+    import fcntl, termios, struct
+    th, tw, hp, wp = struct.unpack('HHHH',
+        fcntl.ioctl(0, termios.TIOCGWINSZ,
+        struct.pack('HHHH', 0, 0, 0, 0)))
+    return tw, th
+
+print('Number of columns and Rows: ',terminal_size())
 
 # 57
 import time
-# def sum_of_n_numbers(n):
-#     start_time = time.time()
-#     s = 0
-#     for i in range(1,n+1):
-#         s = s + i
-#     end_time = time.time()
-#     return s,end_time-start_time
-#
-# n = 5
-# print("\nTime to sum of 1 to ",n," and required time to calculate is :",sum_of_n_numbers(n))
+def sum_of_n_numbers(n):
+    start_time = time.time()
+    s = 0
+    for i in range(1,n+1):
+        s = s + i
+    end_time = time.time()
+    return s,end_time-start_time
+
+n = 5
+print("\nTime to sum of 1 to ",n," and required time to calculate is :",sum_of_n_numbers(n))
 
 # 58
-# num = int(input("Input a number: "))
-# sum_num = (num * (num + 1)) / 2
-# print("Sum of the first", num ,"positive integers:", sum_num)
+num = int(input("Input a number: "))
+sum_num = (num * (num + 1)) / 2
+print("Sum of the first", num ,"positive integers:", sum_num)
 
 # 59
-# print("Input your height: ")
-# h_ft = int(input("Feet: "))
-# h_inch = int(input("Inches: "))
-#
-# h_inch += h_ft * 12
-# h_cm = round(h_inch * 2.54, 1)
-#
-# print("Your height is : %d cm." % h_cm)
+print("Input your height: ")
+h_ft = int(input("Feet: "))
+h_inch = int(input("Inches: "))
+
+h_inch += h_ft * 12
+h_cm = round(h_inch * 2.54, 1)
+
+print("Your height is : %d cm." % h_cm)
 
 
 # 60
-# from math import sqrt
-# print("Input lengths of shorter triangle sides:")
-# a = float(input("a: "))
-# b = float(input("b: "))
-# c = sqrt(a**2 + b**2)
-# print("The length of the hypotenuse is:", c )
+from math import sqrt
+print("Input lengths of shorter triangle sides:")
+a = float(input("a: "))
+b = float(input("b: "))
+c = sqrt(a**2 + b**2)
+print("The length of the hypotenuse is:", c )
 
 # 61
 # f_distance = int(input("enter the distance by feet : "))
